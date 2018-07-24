@@ -19,10 +19,10 @@ import com.eventrepoapi.model.Event;
 
 
 @RestController
-public class EvenntRepoApiRestController {
+public class EventRepoApiRestController {
 	
 	@Autowired
-	private EvenntRepoApiRestService service;
+	private EventRepoApiRestService service;
 	
 	@RequestMapping(value = "/events", method = RequestMethod.GET)
     public ResponseEntity<List<Event>> listAllEvents() {

@@ -19,7 +19,7 @@ import com.eventrepoapi.repository.EventRepositoryImpl;
 import com.eventrepoapi.repository.RepoRepositoryImpl;
 
 @Component
-public class EvenntRepoApiRestService {
+public class EventRepoApiRestService {
 	
 	@Autowired
 	private EventRepositoryImpl eventRepoImpl;
